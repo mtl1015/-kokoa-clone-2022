@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.welcome-header {
+  margin-top: 90px;
+  text-align: center;
+}
+.welcome-header__title {
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+.welcome-header__text {
+  font-size: 15px;
+}

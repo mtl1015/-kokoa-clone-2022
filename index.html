@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <link rel="stylesheet" href="css/cocoa.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+            <!--Icon for wifi -->
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <header class = "welcome-header">
+        <h1 class = "welcome-header__title">Welcome to CocoaTalk</h1>
+        <p class = "welcome-header__text">If you have a Cocoa Account, log in with your email or phone number.</p>
+    </header>
+    <form id = "login-form"><!-- form 쓸 일이 그렇게 없기 때문에 이정도로 표현해도 된다.-->
+        <input type = "text" placeholder="Email or phone number"/>
+        <input type = "text" placeholder="Password"/>
+        <input type = "submit" value="Log in"/>
+        <input type = "button" value = "Sign Up"/>
+        <a href = "#">Find Cocoa Account or Password.</a>
+    </form>
+    
+    <script src="https://kit.fontawesome.com/933566eaa2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
