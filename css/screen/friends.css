@@ -8,7 +8,21 @@
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
   margin-right: 10px;
+  margin-bottom: 5px;
 }
-
-.user-component {
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+.friends-screen-channel {
+  margin-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.212);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.friends-screen-channel-header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.212);
+  padding-left: 15px;
 }

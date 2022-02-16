@@ -6,6 +6,7 @@
 @import "screen/cocoa.css";
 @import "screen/reset.css";
 @import "screen/friends.css";
+@import "component/user-component.css";
 
 body {
   font-family: "Roboto Condensed", sans-serif;
