@@ -2,11 +2,11 @@
 <html lang="kr">
 
 <head>
-    <link rel="stylesheet" href="css/cocoa.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cocoaClone</title>
 </head>
 
 <body>
@@ -29,9 +29,9 @@
         <h1 class = "welcome-header__title">Welcome to CocoaTalk</h1>
         <p class = "welcome-header__text">If you have a Cocoa Account, log in with your email or phone number.</p>
     </header>
-    <form id = "login-form"><!-- form 쓸 일이 그렇게 없기 때문에 이정도로 표현해도 된다.-->
-        <input type = "text" placeholder="Email or phone number"/>
-        <input type = "password" placeholder="Password"/>
+    <form action="friends.html" methid = "get" id = "login-form"><!-- form 쓸 일이 그렇게 없기 때문에 이정도로 표현해도 된다.-->
+        <input name = "username" type = "text" placeholder="Email or phone number"/>
+        <input name = "password" type = "password" placeholder="Password"/>
         <input type = "submit" value="Log in"/>
         <input type = "button" value = "Sign Up"/>
         <a href = "#">Find Cocoa Account or Password.</a>

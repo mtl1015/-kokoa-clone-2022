@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import "component/nav-var.css";
+@import "component/screen-header.css";
+@import "component/status-bar.css";
+@import "screen/variable.css";
+@import "screen/cocoa.css";
+@import "screen/reset.css";
+@import "screen/friends.css";
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2e363e;
+}
