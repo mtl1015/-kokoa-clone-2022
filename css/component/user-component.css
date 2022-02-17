@@ -48,3 +48,17 @@
 .user-component__title--not-bold {
   font-weight: 400;
 }
+.user-component__time {
+  margin-bottom: 1px;
+  margin-top: -20px;
+}
+.user-component__badge {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  margin-top: -20px;
+}
+.user-component__column {
+  display: flex;
+  align-items: center;
+}

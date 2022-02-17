@@ -7,8 +7,11 @@
 @import "screen/reset.css";
 @import "screen/friends.css";
 @import "component/user-component.css";
-
+@import "component/badge.css";
 body {
   font-family: "Roboto Condensed", sans-serif;
   color: #2e363e;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
