@@ -9,6 +9,8 @@
 @import "component/user-component.css";
 @import "component/badge.css";
 @import "screen/find.css";
+@import "component/icon-row.css";
+@import "screen/more.css";
 body {
   font-family: "Roboto Condensed", sans-serif;
   color: #2e363e;
